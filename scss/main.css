@@ -7,4 +7,9 @@ body {
   width: 100%;
   opacity: 0.6;
 }
+
+nav {
+  text-align: center;
+  font-size: 0;
+}
 /*# sourceMappingURL=main.css.map */
