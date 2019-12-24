@@ -2,7 +2,8 @@
 @import 'generic/generic.reset';
 // ---- settings ----
 @import 'settings/settings.color';
-// ---- objects ----
-@import 'objects/objects.template';
 // ---- elements ----
 @import 'elements/elements.base';
+// ---- objects ----
+@import 'objects/objects.template';
+@import 'objects/object.nav-item';
