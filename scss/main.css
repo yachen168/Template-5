@@ -39,11 +39,12 @@ h1 {
 }
 
 h2 {
+  margin: 0;
+  color: #FF0048;
   font-size: 40px;
-  font-family: Dosis;
+  font-family: Domine;
   font-weight: normal;
   letter-spacing: 3px;
-  color: #FF0048;
 }
 
 h4 {
@@ -56,6 +57,7 @@ h4 {
 
 img {
   width: 100%;
+  vertical-align: middle;
 }
 
 figure {
@@ -168,6 +170,14 @@ b {
 
 .row > div {
   width: 100%;
-  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+}
+
+.card .card-body {
+  padding: 15px 0 45px;
 }
 /*# sourceMappingURL=main.css.map */
