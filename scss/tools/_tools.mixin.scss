@@ -1,0 +1,7 @@
+//--- font ---
+@mixin font($size, $family, $color, $spacing) {
+    font-size: $size;
+    font-family: $family;
+    color: $color;
+    letter-spacing: $spacing;
+}
