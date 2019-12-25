@@ -23,17 +23,24 @@ a {
 }
 
 span {
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: Dosis;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
 
 h1 {
   margin: 0;
   font-size: 70px;
+  font-family: Dosis;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: 40px;
+  font-family: Dosis;
+  font-weight: normal;
   letter-spacing: 3px;
   color: #FF0048;
 }
@@ -119,7 +126,9 @@ figure {
   background-color: #FF0048;
   color: #ffffff;
   font-size: 20px;
-  letter-spacing: 2px;
+  font-family: Dosis;
+  font-weight: normal;
+  letter-spacing: 5px;
 }
 
 .rect::before {
