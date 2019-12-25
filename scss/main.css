@@ -33,6 +33,14 @@ h2 {
   font-size: 24px;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .template {
   position: absolute;
   width: 100%;
@@ -114,5 +122,17 @@ h2 {
   -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
           clip-path: polygon(0 0, 100% 0, 50% 100%);
   background-color: #FF0048;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row > div {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
