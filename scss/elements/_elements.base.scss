@@ -13,18 +13,16 @@ a {
 }
 
 span {
-    font-family: 'Dosis', sans-serif;
-    letter-spacing: 1px;
+    @include font(16px, Dosis, normal, 2px);
 }
 
 h1 {
     margin: 0;
-    font-size: 70px;
+    @include font(70px, Dosis, 400, 2px);
 }
 
 h2 {
-    font-size: 40px;
-    letter-spacing: 3px;
+    @include font(40px, Dosis, normal, 3px);
     color: $primary;
 }
 
@@ -41,3 +39,5 @@ img {
 figure {
     margin: 0 0 100px;
 }
+
+b {}
