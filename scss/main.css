@@ -134,5 +134,6 @@ figure {
 
 .row > div {
   width: 100%;
+  font-size: 0;
 }
 /*# sourceMappingURL=main.css.map */
