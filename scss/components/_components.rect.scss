@@ -1,3 +1,16 @@
 .rect {
+    position: relative;
     background-color: $primary;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        left: 0;
+        right: 0;
+        bottom: -30px;
+        margin: 0 auto;
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+        background-color: $primary;
+    }
 }
