@@ -2,8 +2,7 @@
     position: relative;
     background-color: $primary;
     color: $white;
-    font-size: 20px;
-    letter-spacing: 2px;
+    @include font(20px, Dosis, normal, 5px);
     &::before {
         content: "";
         position: absolute;
