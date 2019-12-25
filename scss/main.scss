@@ -1,7 +1,11 @@
+// ---- settings ----
+@import 'settings/settings.font';
+@import 'settings/settings.color';
+// ---- tools ----
+@import 'tools/tools.mixin';
 // ---- generic ----
 @import 'generic/generic.reset';
-@import 'generic/generic.all'; // ---- settings ----
-@import 'settings/settings.color';
+@import 'generic/generic.all';
 // ---- elements ----
 @import 'elements/elements.base';
 // ---- objects ----
