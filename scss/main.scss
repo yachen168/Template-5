@@ -10,9 +10,9 @@
 @import 'elements/elements.base';
 // ---- objects ----
 @import 'objects/objects.template';
-@import 'objects/objects.nav-item';
 @import 'objects/objects.banner';
 // ---- components ----
+@import 'components/components.nav-item';
 @import 'components/components.circles';
 @import 'components/components.rect';
 @import 'components/components.row';
