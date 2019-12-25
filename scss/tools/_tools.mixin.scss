@@ -1,7 +1,7 @@
 //--- font ---
-@mixin font($size, $family, $spacing, $weight) {
+@mixin font($size, $family, $weight, $spacing) {
     font-size: $size;
     font-family: $family;
-    letter-spacing: $spacing;
     font-weight: $weight;
+    letter-spacing: $spacing;
 }
