@@ -18,7 +18,8 @@ span {
 
 h1 {
     margin: 0;
-    @include font(70px, Dosis, 400, 2px);
+    word-spacing: 10px;
+    @include font(70px, Domine, 400, 2px);
 }
 
 h2 {
@@ -28,8 +29,7 @@ h2 {
 
 h4 {
     margin: 0 0 150px;
-    font-size: 24px;
-    letter-spacing: 10px;
+    @include font(24px, Domine, normal, 10px);
 }
 
 img {
@@ -40,4 +40,6 @@ figure {
     margin: 0 0 100px;
 }
 
-b {}
+b {
+    font-family: Lobster;
+}

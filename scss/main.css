@@ -31,8 +31,9 @@ span {
 
 h1 {
   margin: 0;
+  word-spacing: 10px;
   font-size: 70px;
-  font-family: Dosis;
+  font-family: Domine;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -48,6 +49,8 @@ h2 {
 h4 {
   margin: 0 0 150px;
   font-size: 24px;
+  font-family: Domine;
+  font-weight: normal;
   letter-spacing: 10px;
 }
 
@@ -57,6 +60,10 @@ img {
 
 figure {
   margin: 0 0 100px;
+}
+
+b {
+  font-family: Lobster;
 }
 
 .template {
@@ -100,6 +107,8 @@ figure {
 
 .banner .banner-content p {
   font-size: 21px;
+  font-family: Domine;
+  font-weight: normal;
   letter-spacing: 2px;
 }
 

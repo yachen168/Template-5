@@ -9,8 +9,7 @@
         .banner-content {
             max-width: 450px;
             p {
-                font-size: 21px;
-                letter-spacing: 2px;
+                @include font(21px, Domine, normal, 2px);
             }
             .rect {
                 width: 90%;
