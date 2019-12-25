@@ -19,7 +19,7 @@ span {
 h1 {
     margin: 0;
     word-spacing: 10px;
-    @include font(70px, Domine, 400, 2px);
+    @include font(66px, Domine, 400, 5px);
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
 }
 
 h4 {
-    margin: 0 0 150px;
+    margin: 10px 0 150px;
     @include font(24px, Domine, normal, 10px);
 }
 
@@ -41,5 +41,5 @@ figure {
 }
 
 b {
-    font-family: Lobster;
+    @include font(66px, Lobster, normal, 1px);
 }
