@@ -89,8 +89,6 @@ figure {
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
-  font-size: 20px;
-  letter-spacing: 2px;
 }
 
 .circles {
@@ -108,6 +106,9 @@ figure {
 .rect {
   position: relative;
   background-color: #FF0048;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .rect::before {
