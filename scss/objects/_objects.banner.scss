@@ -7,7 +7,7 @@
         background: url(/image/banner.png) no-repeat;
         background-size: cover;
         color: $white;
-        .banner-content {
+        &-content {
             max-width: 450px;
             p {
                 @include font(21px, Domine, normal, 2px);
