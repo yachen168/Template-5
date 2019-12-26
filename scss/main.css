@@ -80,16 +80,6 @@ b {
   z-index: -2;
 }
 
-.nav-item {
-  display: inline-block;
-  padding: 15px;
-  font-size: 17px;
-}
-
-.nav-item:hover {
-  color: #FF0048;
-}
-
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,21 +97,31 @@ b {
   color: #ffffff;
 }
 
-.banner .banner-content {
+.banner-content {
   max-width: 450px;
 }
 
-.banner .banner-content p {
+.banner-content p {
   font-size: 21px;
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 2px;
 }
 
-.banner .banner-content .rect {
+.banner-content .rect {
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.nav-item:hover {
+  color: #FF0048;
 }
 
 .circles {
@@ -177,7 +177,7 @@ b {
   width: 100%;
 }
 
-.card .card-body {
+.card-body {
   padding: 15px 0 45px;
 }
 /*# sourceMappingURL=main.css.map */
