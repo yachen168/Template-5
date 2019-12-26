@@ -1,8 +1,7 @@
 .circles {
     display: inline-block;
     >div {
-        width: 10px;
-        height: 10px;
+        @include size(10px, 10px);
         margin: 20px;
         border-radius: 50%;
         background-color: $white;

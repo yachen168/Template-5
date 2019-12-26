@@ -6,8 +6,7 @@
     &::before {
         content: "";
         position: absolute;
-        width: 50px;
-        height: 25px;
+        @include size(50px, 25px);
         left: 0;
         right: 0;
         bottom: -25px;
