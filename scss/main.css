@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
+.wrapper-banner .banner-rect {
+  background-color: #FF0048;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Dosis;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+.wrapper-banner .banner-rect::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  margin: 0 auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background-color: #FF0048;
+}
+
 body {
   margin: 0;
 }
@@ -109,12 +132,12 @@ b {
   letter-spacing: 2px;
 }
 
-.wrapper-banner .rect {
+.wrapper-banner .banner-rect {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -139,30 +162,6 @@ b {
   margin: 20px;
   border-radius: 50%;
   background-color: #ffffff;
-}
-
-.rect {
-  position: relative;
-  background-color: #FF0048;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: Dosis;
-  font-weight: normal;
-  letter-spacing: 5px;
-}
-
-.rect::before {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 25px;
-  left: 0;
-  right: 0;
-  bottom: -25px;
-  margin: 0 auto;
-  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-          clip-path: polygon(0 0, 100% 0, 50% 100%);
-  background-color: #FF0048;
 }
 
 .row {

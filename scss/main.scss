@@ -3,6 +3,7 @@
 @import 'settings/settings.color';
 // ---- tools ----
 @import 'tools/tools.mixin';
+@import 'tools/tools.placeholder-selectors';
 // ---- generic ----
 @import 'generic/generic.reset';
 @import 'generic/generic.box-sizing';
@@ -15,6 +16,5 @@
 // ---- components ----
 @import 'components/components.nav-item';
 @import 'components/components.circles';
-@import 'components/components.rect';
 @import 'components/components.grid';
 @import 'components/components.card';

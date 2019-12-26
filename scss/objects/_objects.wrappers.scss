@@ -13,12 +13,13 @@
         color: $white;
         @include font(16px, Domine, normal, 2px);
     }
-    .rect {
+    .banner-rect {
+        @extend %dialog-box;
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
         padding: 20px 0;
     }
