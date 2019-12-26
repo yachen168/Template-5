@@ -88,6 +88,10 @@ b {
   background-size: cover;
 }
 
+.wrapper-character {
+  max-width: 910px;
+}
+
 .wrapper-banner {
   position: relative;
   padding: 20vh 10px 10vh;
