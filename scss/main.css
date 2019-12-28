@@ -28,7 +28,7 @@ a {
 
 span {
   font-size: 16px;
-  font-family: Dosis;
+  font-family: Doris;
   font-weight: normal;
   letter-spacing: 2px;
 }
@@ -70,6 +70,12 @@ figure {
   margin: 0 0 100px;
 }
 
+article {
+  background: url("/image/sea-horse-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 b {
   font-size: 66px;
   font-family: Lobster;
@@ -79,6 +85,11 @@ b {
 
 button > a {
   display: block;
+}
+
+footer {
+  padding: 45px 15px;
+  background-color: #E5E4E4;
 }
 
 .template {
@@ -155,6 +166,19 @@ button > a {
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 4px;
+}
+
+.copyright span {
+  font-size: 14px;
+  font-family: Doris;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.copyright a {
+  font-size: 14px;
+  color: #FF0048;
+  margin: 0 5px;
 }
 
 .nav-item {
@@ -248,6 +272,11 @@ button > a {
 .contact {
   background-color: #000000;
   border: 1px solid #000;
+  margin-bottom: 50px;
+}
+
+.back {
+  margin-bottom: 25px;
 }
 
 .back a {
@@ -273,7 +302,7 @@ button > a {
 }
 
 .intro {
-  color: red;
+  color: #ffffff;
   text-align: left;
 }
 
