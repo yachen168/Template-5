@@ -1,0 +1,10 @@
+.wrapper-character {
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+.title {
+    color: $primary;
+    margin: 65px 0;
+    @include font(26px, Domine, normal, 4px);
+}

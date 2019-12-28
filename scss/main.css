@@ -141,12 +141,7 @@ b {
   background-size: cover;
 }
 
-.wrapper-character {
-  max-width: 910px;
-  margin: 0 auto;
-}
-
-.wrapper-banner {
+.banner .wrapper-banner {
   position: relative;
   padding: 20vh 10px 10vh;
   margin: 0 auto;
@@ -154,13 +149,27 @@ b {
   max-width: 450px;
 }
 
-.wrapper-banner p {
+.banner .wrapper-banner p {
   margin: 0 0 5vh;
   color: #ffffff;
   font-size: 16px;
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 2px;
+}
+
+.wrapper-character {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #FF0048;
+  margin: 65px 0;
+  font-size: 26px;
+  font-family: Domine;
+  font-weight: normal;
+  letter-spacing: 4px;
 }
 
 .nav-item {
