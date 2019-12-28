@@ -11,3 +11,29 @@
     width: $w;
     height: $h;
 }
+
+// variables-breakpoints
+// sm:mobile
+// md:tablet
+// lg:desktop
+$sm: 576px;
+$md: 768px;
+$xl: 992px;
+// mediaquery
+@mixin mediaquery-mobile {
+    @media all and (min-width: $sm) {
+        @content;
+    }
+}
+
+@mixin mediaquery-tablet {
+    @media all and (min-width: $md) {
+        @content;
+    }
+}
+
+@mixin mediaquery-desktop {
+    @media all and (min-width: $xl) {
+        @content;
+    }
+}

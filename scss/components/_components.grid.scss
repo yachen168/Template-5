@@ -1,7 +1,22 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    >div {
-        width: 100%;
+}
+
+.col {
+    width: 100%;
+}
+
+.col-sm-6 {
+    @include mediaquery-mobile {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-md-3 {
+    @include mediaquery-tablet {
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 }
