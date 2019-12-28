@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
-.wrapper-banner .banner-rect {
+.banner-rect, .character-rect {
   background-color: #FF0048;
   color: #ffffff;
   font-size: 20px;
   font-family: Dosis;
   font-weight: normal;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
-.wrapper-banner .banner-rect::before {
+.banner-rect::before, .character-rect::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -105,6 +105,36 @@ b {
   z-index: -2;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col {
+  width: 100%;
+}
+
+@media all and (min-width: 576px) {
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .col-md-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
 .banner {
   min-height: 95vh;
   background: url(/image/banner.png) no-repeat;
@@ -132,16 +162,6 @@ b {
   letter-spacing: 2px;
 }
 
-.wrapper-banner .banner-rect {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 75%;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
 .nav-item {
   display: inline-block;
   padding: 15px;
@@ -164,18 +184,6 @@ b {
   background-color: #ffffff;
 }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.row > div {
-  width: 100%;
-}
-
 .card {
   display: inline-block;
   width: 100%;
@@ -183,5 +191,21 @@ b {
 
 .card-body {
   padding: 15px 0 45px;
+}
+
+.banner-rect {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 75%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.character-rect {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px;
 }
 /*# sourceMappingURL=main.css.map */

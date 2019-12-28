@@ -1,0 +1,17 @@
+.banner-rect {
+    position: absolute;
+    @extend %dialog-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.character-rect {
+    position: relative;
+    @extend %dialog-box;
+    width: 100%;
+    padding: 20px 10px;
+}

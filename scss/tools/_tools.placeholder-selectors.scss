@@ -1,7 +1,7 @@
 %dialog-box {
     background-color: $primary;
     color: $white;
-    @include font(20px, Dosis, normal, 5px);
+    @include font(20px, Dosis, normal, 4px);
     &::before {
         content: "";
         position: absolute;
