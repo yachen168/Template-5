@@ -1,0 +1,17 @@
+.intro-wrapper {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 150px 20px;
+    @include mediaquery-desktop {
+        column-count: 2;
+        column-gap: 160px;
+    }
+}
+
+.intro {
+    color: red;
+    text-align: left;
+    .intro-title {
+        @include font(45px, Domine, normal, 4px);
+    }
+}
