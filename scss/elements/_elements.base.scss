@@ -47,3 +47,9 @@ figure {
 b {
     @include font(66px, Lobster, normal, 1px);
 }
+
+button {
+    >a {
+        display: block;
+    }
+}
