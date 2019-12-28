@@ -145,7 +145,7 @@ button > a {
 
 .wrapper-character {
   max-width: 910px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .title {
