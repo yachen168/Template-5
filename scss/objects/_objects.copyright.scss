@@ -1,0 +1,10 @@
+.copyright {
+    span {
+        @include font(14px, Doris, normal, 2px);
+    }
+    a {
+        font-size: 14px;
+        color: $primary;
+        margin: 0 5px;
+    }
+}
