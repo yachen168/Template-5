@@ -7,16 +7,18 @@
     width: 100%;
 }
 
-.col-sm-6 {
+// 6/12
+.col-mobile-6 {
     @include mediaquery-mobile {
         flex: 0 0 50%;
-        max-width: 50%;
+        width: 50%;
     }
 }
 
-.col-md-3 {
+// 3/12
+.col-tablet-3 {
     @include mediaquery-tablet {
         flex: 0 0 25%;
-        max-width: 25%;
+        width: 25%;
     }
 }
