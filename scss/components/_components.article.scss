@@ -1,20 +1,15 @@
 .article-wrapper {
     width: 75%;
     max-width: 1000px;
-    flex-direction: column;
     margin: 0 auto;
     padding: 130px 0;
     @include mediaquery-tablet {
-        flex-direction: row;
-        justify-content: space-between;
+        column-count: 2;
+        column-gap: 15%;
     }
 }
 
-.intro-wrapper {
-    @include mediaquery-tablet {
-        width: 42%;
-    }
-}
+.intro-wrapper {}
 
 .intro {
     color: red;
