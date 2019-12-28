@@ -73,6 +73,10 @@ b {
   letter-spacing: 1px;
 }
 
+button > a {
+  display: block;
+}
+
 .template {
   position: absolute;
   width: 100%;
@@ -95,20 +99,20 @@ b {
 }
 
 @media all and (min-width: 576px) {
-  .col-sm-6 {
+  .col-mobile-6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
-    max-width: 50%;
+    width: 50%;
   }
 }
 
 @media all and (min-width: 768px) {
-  .col-md-3 {
+  .col-tablet-3 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
-    max-width: 25%;
+    width: 25%;
   }
 }
 
@@ -217,5 +221,23 @@ b {
   position: relative;
   width: 100%;
   padding: 20px 10px;
+}
+
+.contact, .back {
+  width: 240px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: Doris;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.contact {
+  background-color: #000000;
+  border: 1px solid #000;
+}
+
+.back a {
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
