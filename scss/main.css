@@ -1,27 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
-.banner-rect, .character-rect {
-  background-color: #FF0048;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: Dosis;
-  font-weight: normal;
-  letter-spacing: 4px;
-}
-
-.banner-rect::before, .character-rect::before {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 25px;
-  left: 0;
-  right: 0;
-  bottom: -23px;
-  margin: 0 auto;
-  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-          clip-path: polygon(0 0, 100% 0, 50% 100%);
-  background-color: #FF0048;
-}
-
 body {
   margin: 0;
 }
@@ -201,6 +178,29 @@ b {
 
 .card-body {
   padding: 15px 0 45px;
+}
+
+.banner-rect, .character-rect {
+  background-color: #FF0048;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Dosis;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+.banner-rect::before, .character-rect::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: 0;
+  right: 0;
+  bottom: -23px;
+  margin: 0 auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background-color: #FF0048;
 }
 
 .banner-rect {
