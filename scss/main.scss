@@ -11,10 +11,11 @@
 @import 'elements/elements.base';
 // ---- objects ----
 @import 'objects/objects.template';
+@import 'objects/objects.grid';
 @import 'objects/objects.banner';
 @import 'objects/objects.wrappers';
 // ---- components ----
 @import 'components/components.nav-item';
 @import 'components/components.circles';
-@import 'components/components.grid';
 @import 'components/components.card';
+@import 'components/components.rect'
