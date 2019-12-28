@@ -7,10 +7,12 @@
 .contact {
     background-color: $black;
     border: 1px solid #000;
+    margin-bottom: 50px;
     @extend %button;
 }
 
 .back {
+    margin-bottom: 25px;
     @extend %button;
     a {
         color: $black;

@@ -10,7 +10,7 @@
 }
 
 .intro {
-    color: red;
+    color: $white;
     text-align: left;
     .intro-title {
         @include font(44px, Domine, normal, 4px);

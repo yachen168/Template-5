@@ -13,7 +13,7 @@ a {
 }
 
 span {
-    @include font(16px, Dosis, normal, 2px);
+    @include font(16px, Doris, normal, 2px);
 }
 
 h1 {
@@ -45,7 +45,9 @@ figure {
 }
 
 article {
-    background: url('/image/sea-horse-bg.jpg');
+    background: url('/image/sea-horse-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 b {
@@ -59,4 +61,9 @@ button {
     >a {
         display: block;
     }
+}
+
+footer {
+    padding: 45px 15px;
+    background-color: $gray;
 }
