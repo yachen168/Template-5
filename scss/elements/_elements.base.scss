@@ -44,8 +44,15 @@ figure {
     margin: 0 0 100px;
 }
 
+article {
+    background: url('/image/sea-horse-bg.jpg');
+}
+
 b {
-    @include font(66px, Lobster, normal, 1px);
+    @include font(66px,
+    Lobster,
+    normal,
+    1px);
 }
 
 button {
