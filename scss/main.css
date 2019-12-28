@@ -167,16 +167,25 @@ button > a {
   color: #FF0048;
 }
 
-.circles {
+.banner-circles, .article-circles {
   display: inline-block;
 }
 
-.circles > div {
+.banner-circles > div, .article-circles > div {
   width: 10px;
   height: 10px;
-  margin: 20px;
+  margin: 20px 10px 20px;
   border-radius: 50%;
   background-color: #ffffff;
+}
+
+.article-circles {
+  font-size: 0;
+  margin: 70px 0;
+}
+
+.article-circles > div {
+  display: inline-block;
 }
 
 .card {
@@ -252,24 +261,38 @@ button > a {
   padding: 130px 0;
 }
 
-@media all and (min-width: 768px) {
-  .article-wrapper {
-    -webkit-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 15%;
-            column-gap: 15%;
-  }
-}
-
 .intro {
   color: red;
   text-align: left;
 }
 
 .intro .intro-title {
-  font-size: 45px;
+  font-size: 44px;
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 4px;
+}
+
+.intro-wrapper:nth-of-type(1) {
+  float: left;
+}
+
+@media all and (min-width: 768px) {
+  .intro-wrapper:nth-of-type(1) {
+    width: 42%;
+  }
+}
+
+.intro-wrapper:nth-of-type(2) {
+  display: inline-block;
+  margin-left: auto;
+}
+
+@media all and (min-width: 768px) {
+  .intro-wrapper:nth-of-type(2) {
+    display: flow-root;
+    width: 42%;
+    margin-top: 300px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
