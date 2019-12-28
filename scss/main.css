@@ -23,7 +23,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #E5E4E4;
 }
 
 span {
@@ -36,7 +36,7 @@ span {
 h1 {
   margin: 0;
   word-spacing: 10px;
-  color: #ffffff;
+  color: #E5E4E4;
   font-size: 55px;
   font-family: Domine;
   font-weight: 400;
@@ -54,7 +54,7 @@ h2 {
 
 h4 {
   margin: 2vh 0 15vh;
-  color: #ffffff;
+  color: #E5E4E4;
   font-size: 18px;
   font-family: Domine;
   font-weight: normal;
@@ -147,7 +147,7 @@ footer {
 
 .banner .wrapper-banner p {
   margin: 0 0 5vh;
-  color: #ffffff;
+  color: #E5E4E4;
   font-size: 16px;
   font-family: Domine;
   font-weight: normal;
@@ -200,7 +200,7 @@ footer {
   height: 10px;
   margin: 20px 10px 20px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #E5E4E4;
 }
 
 .article-circles {
@@ -223,7 +223,7 @@ footer {
 
 .banner-rect, .character-rect {
   background-color: #FF0048;
-  color: #ffffff;
+  color: #E5E4E4;
   font-size: 20px;
   font-family: Dosis;
   font-weight: normal;
@@ -290,7 +290,7 @@ footer {
   padding: 130px 0;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
   .article-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -302,24 +302,30 @@ footer {
 }
 
 .intro {
-  color: #ffffff;
+  color: #E5E4E4;
   text-align: left;
 }
 
 .intro .intro-title {
-  font-size: 44px;
+  font-size: 30px;
   font-family: Domine;
   font-weight: normal;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
+  .intro .intro-title {
+    font-size: 44px;
+  }
+}
+
+@media all and (min-width: 992px) {
   .intro-wrapper:nth-of-type(1) {
     width: 42%;
   }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
   .intro-wrapper:nth-of-type(2) {
     width: 42%;
     margin-top: 300px;
