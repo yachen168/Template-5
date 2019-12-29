@@ -12,6 +12,7 @@
         margin: 0 auto;
         clip-path: polygon(0 0, 100% 0, 50% 100%);
         background-color: $primary;
+        z-index: 5;
     }
 }
 
