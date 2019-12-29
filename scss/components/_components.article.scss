@@ -35,3 +35,9 @@
         margin-top: 300px;
     }
 }
+
+.desktop-none {
+    @include mediaquery-desktop {
+        display: none;
+    }
+}

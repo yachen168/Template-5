@@ -71,9 +71,7 @@ figure {
 }
 
 article {
-  background: url("/image/sea-horse-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url("/image/sea-horse-bg.jpg") no-repeat center/cover;
 }
 
 b {
@@ -340,6 +338,12 @@ footer {
   .intro-wrapper:nth-of-type(2) {
     width: 42%;
     margin-top: 300px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .desktop-none {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
