@@ -1,7 +1,9 @@
 %button {
     width: 240px;
-    padding: 10px 0;
     @include font(16px, Doris, normal, 0);
+    >a {
+        padding: 10px 0;
+    }
 }
 
 .contact {
@@ -13,6 +15,7 @@
 
 .back {
     margin-bottom: 25px;
+    background-color: $white;
     @extend %button;
     a {
         color: $black;

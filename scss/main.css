@@ -262,11 +262,14 @@ footer {
 
 .contact, .back {
   width: 240px;
-  padding: 10px 0;
   font-size: 16px;
   font-family: Doris;
   font-weight: normal;
   letter-spacing: 0;
+}
+
+.contact > a, .back > a {
+  padding: 10px 0;
 }
 
 .contact {
@@ -277,6 +280,7 @@ footer {
 
 .back {
   margin-bottom: 25px;
+  background-color: #E5E4E4;
 }
 
 .back a {
