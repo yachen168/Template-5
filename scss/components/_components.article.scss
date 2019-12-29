@@ -18,6 +18,9 @@
             font-size: 44px;
         }
     }
+    p {
+        @include font(16px, Doris, normal, 0);
+    }
 }
 
 .intro-wrapper:nth-of-type(1) {
