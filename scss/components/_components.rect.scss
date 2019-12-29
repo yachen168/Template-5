@@ -1,7 +1,7 @@
 %dialog-box {
     background-color: $primary;
     color: $white;
-    @include font(20px, Dosis, normal, 4px);
+    @include font(20px, Doris, normal, 4px);
     &::before {
         content: "";
         position: absolute;
@@ -30,6 +30,7 @@
 .character-rect {
     position: relative;
     @extend %dialog-box;
+    letter-spacing: 2px;
     width: 100%;
     padding: 20px 10px;
 }
