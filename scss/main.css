@@ -53,6 +53,21 @@ h2 {
 }
 
 h4 {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+h5 {
   margin: 2vh 0 15vh;
   color: #E5E4E4;
   font-size: 18px;
@@ -240,6 +255,7 @@ footer {
   -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
           clip-path: polygon(0 0, 100% 0, 50% 100%);
   background-color: #FF0048;
+  z-index: 5;
 }
 
 .banner-rect {
@@ -345,5 +361,27 @@ footer {
   .desktop-none {
     display: none;
   }
+}
+
+.img-hover {
+  position: relative;
+}
+
+.img-hover .caption {
+  position: absolute;
+  background-color: #F1B800;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.img-hover .caption:hover {
+  opacity: 1;
+  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */
