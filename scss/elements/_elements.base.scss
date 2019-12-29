@@ -30,6 +30,16 @@ h2 {
 }
 
 h4 {
+    position: absolute;
+    @include size(fit-content, fit-content);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+h5 {
     margin: 2vh 0 15vh;
     color: $white;
     @include font(18px, Domine, normal, 10px);
