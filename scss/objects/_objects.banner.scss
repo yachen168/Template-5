@@ -2,16 +2,14 @@
     min-height: 95vh;
     background: url(/image/banner.png) no-repeat;
     background-size: cover;
-    .wrapper-banner {
-        position: relative;
-        padding: 20vh 10px 10vh;
-        margin: 0 auto;
-        height: 95vh;
-        max-width: 450px;
-        p {
+    p {
+        margin: 0 0 2vh;
+        color: $white;
+        line-height: 1.7;
+        @include font(16px, Domine, normal, 2px);
+        @include mediaquery-desktop {
+            font-size: 22px;
             margin: 0 0 5vh;
-            color: $white;
-            @include font(16px, Domine, normal, 2px);
         }
     }
 }

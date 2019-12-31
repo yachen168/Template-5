@@ -91,6 +91,12 @@ h1 {
   letter-spacing: 5px;
 }
 
+@media all and (min-width: 992px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+
 h2 {
   margin: 0;
   color: #FF0048;
@@ -124,6 +130,13 @@ h5 {
   letter-spacing: 10px;
 }
 
+@media all and (min-width: 992px) {
+  h5 {
+    font-size: 25px;
+    margin: 2vh 0 16vh;
+  }
+}
+
 img {
   width: 100%;
   vertical-align: middle;
@@ -153,13 +166,35 @@ footer {
   background-color: #E5E4E4;
 }
 
-.template {
-  position: absolute;
-  width: 100%;
-  opacity: 0.6;
-  top: 0;
-  left: 0;
-  z-index: -2;
+.article-wrapper {
+  width: 75%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+
+@media all and (min-width: 992px) {
+  .article-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.banner-wrapper {
+  position: relative;
+  padding: 18vh 10px 10vh;
+  margin: 0 auto;
+  height: 95vh;
+  max-width: 480px;
+}
+
+.character-wrapper {
+  max-width: 910px;
+  margin: 0 auto 20px;
 }
 
 .row {
@@ -198,26 +233,21 @@ footer {
   background-size: cover;
 }
 
-.banner .wrapper-banner {
-  position: relative;
-  padding: 20vh 10px 10vh;
-  margin: 0 auto;
-  height: 95vh;
-  max-width: 450px;
-}
-
-.banner .wrapper-banner p {
-  margin: 0 0 5vh;
+.banner p {
+  margin: 0 0 2vh;
   color: #E5E4E4;
+  line-height: 1.7;
   font-size: 16px;
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 2px;
 }
 
-.wrapper-character {
-  max-width: 910px;
-  margin: 0 auto 20px;
+@media all and (min-width: 992px) {
+  .banner p {
+    font-size: 22px;
+    margin: 0 0 5vh;
+  }
 }
 
 .character-title {
@@ -275,7 +305,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   padding: 25px 0;
 }
@@ -300,24 +330,6 @@ footer {
 
 .back a {
   color: #000000;
-}
-
-.article-wrapper {
-  width: 75%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 130px 0;
-}
-
-@media all and (min-width: 992px) {
-  .article-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
 }
 
 .intro {

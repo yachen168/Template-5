@@ -21,6 +21,9 @@ h1 {
     word-spacing: 10px;
     color: $white;
     @include font(55px, Domine, 400, 5px);
+    @include mediaquery-desktop {
+        font-size: 65px;
+    }
 }
 
 h2 {
@@ -43,6 +46,10 @@ h5 {
     margin: 2vh 0 15vh;
     color: $white;
     @include font(18px, Domine, normal, 10px);
+    @include mediaquery-desktop {
+        font-size: 25px;
+        margin: 2vh 0 16vh;
+    }
 }
 
 img {
