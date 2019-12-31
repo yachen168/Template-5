@@ -1,11 +1,3 @@
-%button {
-    width: 240px;
-    @include font(16px, Doris, normal, 0);
-    >a {
-        padding: 10px 0;
-    }
-}
-
 .contact {
     background-color: $black;
     border: 1px solid #000;

@@ -1,4 +1,52 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
+.contact, .back {
+  width: 240px;
+  font-size: 16px;
+  font-family: Doris;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.contact > a, .back > a {
+  padding: 10px 0;
+}
+
+.banner-circles, .article-circles {
+  display: inline-block;
+}
+
+.banner-circles > div, .article-circles > div {
+  width: 10px;
+  height: 10px;
+  margin: 20px 10px 20px;
+  border-radius: 50%;
+  background-color: #E5E4E4;
+}
+
+.banner-rect, .character-rect {
+  background-color: #FF0048;
+  color: #E5E4E4;
+  font-size: 20px;
+  font-family: Doris;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+.banner-rect::before, .character-rect::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: 0;
+  right: 0;
+  bottom: -23px;
+  margin: 0 auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background-color: #FF0048;
+  z-index: 5;
+}
+
 body,
 h1,
 h2,
@@ -204,18 +252,6 @@ footer {
   color: #FF0048;
 }
 
-.banner-circles, .article-circles {
-  display: inline-block;
-}
-
-.banner-circles > div, .article-circles > div {
-  width: 10px;
-  height: 10px;
-  margin: 20px 10px 20px;
-  border-radius: 50%;
-  background-color: #E5E4E4;
-}
-
 .article-circles {
   font-size: 0;
   margin: 70px 0;
@@ -234,30 +270,6 @@ footer {
   padding: 15px 0 45px;
 }
 
-.banner-rect, .character-rect {
-  background-color: #FF0048;
-  color: #E5E4E4;
-  font-size: 20px;
-  font-family: Doris;
-  font-weight: normal;
-  letter-spacing: 4px;
-}
-
-.banner-rect::before, .character-rect::before {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 25px;
-  left: 0;
-  right: 0;
-  bottom: -23px;
-  margin: 0 auto;
-  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-          clip-path: polygon(0 0, 100% 0, 50% 100%);
-  background-color: #FF0048;
-  z-index: 5;
-}
-
 .banner-rect {
   position: absolute;
   bottom: 0;
@@ -273,18 +285,6 @@ footer {
   letter-spacing: 2px;
   width: 100%;
   padding: 20px 10px;
-}
-
-.contact, .back {
-  width: 240px;
-  font-size: 16px;
-  font-family: Doris;
-  font-weight: normal;
-  letter-spacing: 0;
-}
-
-.contact > a, .back > a {
-  padding: 10px 0;
 }
 
 .contact {
