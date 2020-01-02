@@ -351,6 +351,7 @@ footer {
 }
 
 .intro p {
+  text-align: justify;
   font-size: 16px;
   font-family: Doris;
   font-weight: normal;
