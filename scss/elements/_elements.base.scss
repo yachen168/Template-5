@@ -2,11 +2,6 @@ body {
     text-align: center;
 }
 
-nav {
-    font-size: 0;
-    background-color: $secondary;
-}
-
 a {
     text-decoration: none;
     color: $white;
@@ -61,24 +56,6 @@ figure {
     margin: 0 0 100px;
 }
 
-article {
-    background: url('/image/sea-horse-bg.jpg') no-repeat center/cover;
-}
-
 b {
-    @include font(66px,
-    Lobster,
-    normal,
-    1px);
-}
-
-button {
-    >a {
-        display: block;
-    }
-}
-
-footer {
-    padding: 45px 15px;
-    background-color: $gray;
+    @include font(66px, Lobster, normal, 1px);
 }
