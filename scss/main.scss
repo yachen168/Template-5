@@ -10,16 +10,18 @@
 // ---- elements ----
 @import 'elements/elements.base';
 // ---- objects ----
+@import 'objects/objects.header';
 @import 'objects/objects.wrappers';
 @import 'objects/objects.grid';
 @import 'objects/objects.banner';
 @import 'objects/objects.character';
-@import 'objects/objects.copyright';
+@import 'objects/objects.article';
+@import 'objects/objects.footer';
 // ---- components ----
 @import 'components/components.nav-item';
 @import 'components/components.circles';
 @import 'components/components.card';
 @import 'components/components.rect';
 @import 'components/components.button';
-@import 'components/components.article';
+@import 'components/components.intro';
 @import 'components/components.img-hover';

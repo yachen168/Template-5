@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
 .contact, .back {
+  display: block;
   width: 240px;
+  padding: 10px 0;
+  margin: 0 auto;
   font-size: 16px;
   font-family: Doris;
   font-weight: normal;
   letter-spacing: 0;
-}
-
-.contact > a, .back > a {
-  padding: 10px 0;
 }
 
 .banner-circles, .article-circles {
@@ -62,11 +61,6 @@ h4 {
 
 body {
   text-align: center;
-}
-
-nav {
-  font-size: 0;
-  background-color: #3F0533;
 }
 
 a {
@@ -146,10 +140,6 @@ figure {
   margin: 0 0 100px;
 }
 
-article {
-  background: url("/image/sea-horse-bg.jpg") no-repeat center/cover;
-}
-
 b {
   font-size: 66px;
   font-family: Lobster;
@@ -157,13 +147,9 @@ b {
   letter-spacing: 1px;
 }
 
-button > a {
-  display: block;
-}
-
-footer {
-  padding: 45px 15px;
-  background-color: #E5E4E4;
+nav {
+  font-size: 0;
+  background-color: #3F0533;
 }
 
 .article-wrapper {
@@ -259,6 +245,16 @@ footer {
   letter-spacing: 4px;
 }
 
+article {
+  padding-bottom: 25px;
+  background: url("/image/sea-horse-bg.jpg") no-repeat center/cover;
+}
+
+footer {
+  padding: 45px 15px;
+  background-color: #E5E4E4;
+}
+
 .copyright span {
   font-size: 14px;
   font-family: Doris;
@@ -324,11 +320,7 @@ footer {
 }
 
 .back {
-  margin-bottom: 25px;
   background-color: #E5E4E4;
-}
-
-.back a {
   color: #000000;
 }
 
