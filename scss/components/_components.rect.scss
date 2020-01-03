@@ -1,3 +1,21 @@
+%dialog-box {
+    background-color: $primary;
+    color: $white;
+    @include font(20px, Doris, normal, 4px);
+    &::before {
+        content: "";
+        position: absolute;
+        @include size(50px, 25px);
+        left: 0;
+        right: 0;
+        bottom: -23px;
+        margin: 0 auto;
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+        background-color: $primary;
+        z-index: 5;
+    }
+}
+
 .banner-rect {
     position: absolute;
     @extend %dialog-box;
