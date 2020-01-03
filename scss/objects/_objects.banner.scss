@@ -1,15 +1,13 @@
 .banner {
-    min-height: 95vh;
     background: url(/image/banner.png) no-repeat;
     background-size: cover;
     p {
-        margin: 0 0 2vh;
+        margin: 0 0 3vh;
         color: $white;
         line-height: 1.7;
         @include font(16px, Domine, normal, 2px);
         @include mediaquery-desktop {
             font-size: 22px;
-            margin: 0 0 5vh;
         }
     }
 }
