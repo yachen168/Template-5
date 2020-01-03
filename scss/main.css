@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap");
-.back, .contact {
+.contact, .back {
   display: block;
   width: 240px;
   padding: 10px 0;
@@ -10,10 +10,11 @@
   letter-spacing: 0;
 }
 
-.article-circles, .banner-circles {
+.banner-circles, .article-circles {
   display: inline-block;
 }
-.article-circles > div, .banner-circles > div {
+
+.banner-circles > div, .article-circles > div {
   width: 10px;
   height: 10px;
   margin: 20px 10px 20px;
@@ -21,7 +22,7 @@
   background-color: #E5E4E4;
 }
 
-.character-rect, .banner-rect {
+.banner-rect, .character-rect {
   background-color: #FF0048;
   color: #E5E4E4;
   font-size: 20px;
@@ -29,7 +30,8 @@
   font-weight: normal;
   letter-spacing: 4px;
 }
-.character-rect::before, .banner-rect::before {
+
+.banner-rect::before, .character-rect::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -38,7 +40,8 @@
   right: 0;
   bottom: -23px;
   margin: 0 auto;
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+          clip-path: polygon(0 0, 100% 0, 50% 100%);
   background-color: #FF0048;
   z-index: 5;
 }
@@ -52,7 +55,8 @@ h4 {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -80,6 +84,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 5px;
 }
+
 @media all and (min-width: 992px) {
   h1 {
     font-size: 65px;
@@ -97,7 +102,11 @@ h2 {
 
 h4 {
   position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   top: 0;
   right: 0;
@@ -114,6 +123,7 @@ h5 {
   font-weight: normal;
   letter-spacing: 10px;
 }
+
 @media all and (min-width: 992px) {
   h5 {
     font-size: 25px;
@@ -148,10 +158,15 @@ nav {
   margin: 0 auto;
   padding: 130px 0;
 }
+
 @media all and (min-width: 992px) {
   .article-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -169,8 +184,11 @@ nav {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col {
@@ -179,21 +197,27 @@ nav {
 
 @media all and (min-width: 576px) {
   .col-mobile-6 {
-    flex: 0 0 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
     width: 50%;
   }
 }
 
 @media all and (min-width: 768px) {
   .col-tablet-4 {
-    flex: 0 0 33.333%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%;
     width: 33.333%;
   }
 }
 
 @media all and (min-width: 992px) {
   .col-desktop-3 {
-    flex: 0 0 25%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
     width: 25%;
   }
 }
@@ -203,6 +227,7 @@ nav {
   background: url(/image/banner.png) no-repeat;
   background-size: cover;
 }
+
 .banner p {
   margin: 0 0 2vh;
   color: #E5E4E4;
@@ -212,6 +237,7 @@ nav {
   font-weight: normal;
   letter-spacing: 2px;
 }
+
 @media all and (min-width: 992px) {
   .banner p {
     font-size: 22px;
@@ -244,6 +270,7 @@ footer {
   font-weight: normal;
   letter-spacing: 2px;
 }
+
 .copyright a {
   font-size: 14px;
   color: #FF0048;
@@ -255,6 +282,7 @@ footer {
   padding: 15px;
   font-size: 17px;
 }
+
 .nav-item:hover {
   color: #FF0048;
 }
@@ -263,6 +291,7 @@ footer {
   font-size: 0;
   margin: 70px 0;
 }
+
 .article-circles > div {
   display: inline-block;
 }
@@ -271,6 +300,7 @@ footer {
   display: inline-block;
   width: 100%;
 }
+
 .card-body {
   padding: 15px 0 45px;
 }
@@ -307,17 +337,20 @@ footer {
   color: #E5E4E4;
   text-align: left;
 }
+
 .intro .intro-title {
   font-size: 30px;
   font-family: Domine;
   font-weight: normal;
   letter-spacing: 2px;
 }
+
 @media all and (min-width: 992px) {
   .intro .intro-title {
     font-size: 44px;
   }
 }
+
 .intro p {
   text-align: justify;
   font-size: 16px;
@@ -348,6 +381,7 @@ footer {
 .img-hover {
   position: relative;
 }
+
 .img-hover .caption {
   position: absolute;
   background-color: #F1B800;
@@ -357,11 +391,12 @@ footer {
   bottom: 0;
   margin: auto;
   opacity: 0;
-  transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
 }
+
 .img-hover .caption:hover {
   opacity: 1;
   font-size: 50px;
 }
-
 /*# sourceMappingURL=main.css.map */
