@@ -8,8 +8,8 @@
 
 // --- size ---
 @mixin size($width, $height) {
-    width: $w;
-    height: $h;
+    width: $width;
+    height: $height;
 }
 
 // variables-breakpoints
