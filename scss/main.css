@@ -31,6 +31,7 @@ span {
 h1 {
   margin: 0;
   word-spacing: 10px;
+  font-style: italic;
   color: #E5E4E4;
   font-size: 55px;
   font-family: Domine;
@@ -42,6 +43,13 @@ h1 {
   h1 {
     font-size: 65px;
   }
+}
+
+h1 > span {
+  font-size: 66px;
+  font-family: Lobster;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -91,13 +99,6 @@ img {
 
 figure {
   margin: 0 0 100px;
-}
-
-b {
-  font-size: 66px;
-  font-family: Lobster;
-  font-weight: normal;
-  letter-spacing: 1px;
 }
 
 nav {

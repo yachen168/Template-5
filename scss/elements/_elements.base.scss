@@ -14,10 +14,14 @@ span {
 h1 {
     margin: 0;
     word-spacing: 10px;
+    font-style: italic;
     color: $white;
     @include font(55px, Domine, 400, 5px);
     @include mediaquery-desktop {
         font-size: 65px;
+    }
+    >span {
+        @include font(66px, Lobster, normal, 1px);
     }
 }
 
@@ -54,8 +58,4 @@ img {
 
 figure {
     margin: 0 0 100px;
-}
-
-b {
-    @include font(66px, Lobster, normal, 1px);
 }
