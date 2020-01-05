@@ -1,11 +1,3 @@
-//--- font ---
-@mixin font($size, $family, $weight, $spacing) {
-    font-size: $size;
-    font-family: $family;
-    font-weight: $weight;
-    letter-spacing: $spacing;
-}
-
 // --- size ---
 @mixin size($width, $height) {
     width: $width;

@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Domine|Dosis:400,500,600,700|Lobster&display=swap');
+// ---
+@mixin font($size,
+$family,
+$weight,
+$spacing) {
+    font-size: $size;
+    font-family: $family;
+    font-weight: $weight;
+    letter-spacing: $spacing;
+}
