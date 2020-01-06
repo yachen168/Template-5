@@ -195,6 +195,13 @@ article {
   text-align: center;
   padding-bottom: 25px;
   background: url("/image/sea-horse-bg.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+@media all and (min-width: 992px) {
+  article {
+    background-size: 200%;
+  }
 }
 
 .article-wrapper {
