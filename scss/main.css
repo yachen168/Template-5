@@ -105,36 +105,6 @@ nav {
   background-color: #3F0533;
 }
 
-.article-wrapper {
-  width: 75%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 130px 0;
-}
-
-@media all and (min-width: 992px) {
-  .article-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-}
-
-.banner-wrapper {
-  position: relative;
-  padding-top: 19vh;
-  margin: 0 auto;
-  max-width: 480px;
-}
-
-.character-wrapper {
-  max-width: 910px;
-  margin: 0 auto 20px;
-}
-
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,6 +166,13 @@ nav {
   }
 }
 
+.banner-wrapper {
+  position: relative;
+  padding-top: 19vh;
+  margin: 0 auto;
+  max-width: 480px;
+}
+
 .character {
   text-align: center;
 }
@@ -209,10 +186,33 @@ nav {
   letter-spacing: 4px;
 }
 
+.character-wrapper {
+  max-width: 910px;
+  margin: 0 auto 20px;
+}
+
 article {
   text-align: center;
   padding-bottom: 25px;
   background: url("/image/sea-horse-bg.jpg") no-repeat center/cover;
+}
+
+.article-wrapper {
+  width: 75%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+
+@media all and (min-width: 992px) {
+  .article-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 footer {

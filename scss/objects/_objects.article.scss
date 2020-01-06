@@ -3,3 +3,14 @@ article {
     padding-bottom: 25px;
     background: url('/image/sea-horse-bg.jpg') no-repeat center/cover;
 }
+
+.article-wrapper {
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 130px 0;
+    @include mediaquery-desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+}

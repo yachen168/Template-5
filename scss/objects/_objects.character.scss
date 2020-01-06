@@ -6,3 +6,8 @@
         @include font(26px, Domine, normal, 4px);
     }
 }
+
+.character-wrapper {
+    max-width: 910px;
+    margin: 0 auto 20px;
+}
