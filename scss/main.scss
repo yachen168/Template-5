@@ -2,11 +2,10 @@
 @import 'settings/settings.font';
 @import 'settings/settings.color';
 // ---- tools ----
-@import 'tools/tools.mixin';
+@import 'tools/tools.size';
 @import 'tools/tools.mediaquery';
 // ---- generic ----
 @import 'generic/generic.reset';
-@import 'generic/generic.box-sizing';
 // ---- elements ----
 @import 'elements/elements.base';
 // ---- objects ----
