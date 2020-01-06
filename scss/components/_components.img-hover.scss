@@ -3,6 +3,8 @@
     .caption {
         position: absolute;
         background-color: $yellow;
+        text-align: center;
+        font-size: 0;
         top: 0;
         left: 0;
         right: 0;
@@ -12,7 +14,12 @@
         transition-duration: 0.7s;
         &:hover {
             opacity: 1;
-            font-size: 50px;
+        }
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
         }
     }
 }
