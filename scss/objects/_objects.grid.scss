@@ -9,7 +9,7 @@
 
 //  12 欄 grid
 // col-裝置-所佔等份
-// 在 mobile 下，佔 12 欄中的 6 欄。
+// 在 mobile 下，佔 12 欄中的 6 欄，也就是 1/2 = 50%。
 .col-mobile-6 {
     @include mediaquery-mobile {
         flex: 0 0 50%;
@@ -17,7 +17,7 @@
     }
 }
 
-// 在 tablet 下，佔 12 欄中的 4 欄。
+// 在 tablet 下，佔 12 欄中的 4 欄，也就是 1/3 = 33.33%。
 .col-tablet-4 {
     @include mediaquery-tablet {
         flex: 0 0 33.333%;
@@ -25,7 +25,7 @@
     }
 }
 
-// 在 desktop 下，佔 12 欄中的 3 欄。
+// 在 desktop 下，佔 12 欄中的 3 欄，也就是 1/4 = 25%。
 .col-desktop-3 {
     @include mediaquery-desktop {
         flex: 0 0 25%;
