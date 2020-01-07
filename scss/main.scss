@@ -10,12 +10,13 @@
 @import 'elements/elements.base';
 // ---- objects ----
 @import 'objects/objects.header';
-@import 'objects/objects.grid';
 @import 'objects/objects.banner';
+@import 'objects/objects.figures';
 @import 'objects/objects.character';
 @import 'objects/objects.article';
 @import 'objects/objects.footer';
 // ---- components ----
+@import 'components/components.grid';
 @import 'components/components.nav-item';
 @import 'components/components.circles';
 @import 'components/components.card';
