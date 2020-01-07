@@ -11,22 +11,3 @@
         @include font(16px, Doris, normal, 0);
     }
 }
-
-.intro-wrapper:nth-of-type(1) {
-    @include mediaquery-desktop {
-        width: 42%;
-    }
-}
-
-.intro-wrapper:nth-of-type(2) {
-    @include mediaquery-desktop {
-        width: 42%;
-        margin-top: 300px;
-    }
-}
-
-.desktop-none {
-    @include mediaquery-desktop {
-        display: none;
-    }
-}
