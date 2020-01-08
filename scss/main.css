@@ -86,53 +86,10 @@ img {
   vertical-align: middle;
 }
 
-figure {
-  margin: 0 0 100px;
-}
-
 nav {
   font-size: 0;
   text-align: center;
   background-color: #3F0533;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.col {
-  width: 100%;
-}
-
-@media all and (min-width: 576px) {
-  .col-mobile-6 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    width: 50%;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .col-tablet-4 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.333%;
-            flex: 0 0 33.333%;
-    width: 33.333%;
-  }
-}
-
-@media all and (min-width: 992px) {
-  .col-desktop-3 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    width: 25%;
-  }
 }
 
 .banner {
@@ -162,6 +119,10 @@ nav {
   padding-top: 19vh;
   margin: 0 auto;
   max-width: 480px;
+}
+
+.figure {
+  margin: 0 0 100px;
 }
 
 .character {
@@ -214,6 +175,19 @@ article {
 }
 
 @media all and (min-width: 992px) {
+  .article-wrapper .intro-wrapper:nth-of-type(1) {
+    width: 42%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .article-wrapper .intro-wrapper:nth-of-type(2) {
+    width: 42%;
+    margin-top: 300px;
+  }
+}
+
+@media all and (min-width: 992px) {
   .article-wrapper .desktop-none {
     display: none;
   }
@@ -236,6 +210,45 @@ footer {
   font-size: 14px;
   color: #FF0048;
   margin: 0 5px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col {
+  width: 100%;
+}
+
+@media all and (min-width: 576px) {
+  .col-mobile-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .col-tablet-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%;
+    width: 33.333%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .col-desktop-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    width: 25%;
+  }
 }
 
 .nav-item {
@@ -368,19 +381,6 @@ footer {
   font-family: Doris;
   font-weight: normal;
   letter-spacing: 0;
-}
-
-@media all and (min-width: 992px) {
-  .intro-wrapper:nth-of-type(1) {
-    width: 42%;
-  }
-}
-
-@media all and (min-width: 992px) {
-  .intro-wrapper:nth-of-type(2) {
-    width: 42%;
-    margin-top: 300px;
-  }
 }
 
 .img-hover {
