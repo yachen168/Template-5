@@ -1,8 +1,8 @@
 // ---- settings ----
-@import 'settings/font';
 @import 'settings/color';
 // ---- tools ----
 @import 'tools/mediaquery';
+@import 'tools/font';
 // ---- generic ----
 @import 'generic/reset';
 // ---- elements ----
@@ -10,7 +10,7 @@
 // ---- objects ----
 @import 'objects/header';
 @import 'objects/banner';
-@import 'objects/figures';
+@import 'objects/portfolio';
 @import 'objects/character';
 @import 'objects/article';
 @import 'objects/footer';
