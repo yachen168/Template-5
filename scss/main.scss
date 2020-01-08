@@ -1,26 +1,26 @@
 // ---- settings ----
-@import 'settings/settings.font';
-@import 'settings/settings.color';
+@import 'settings.font';
+@import 'settings.color';
 // ---- tools ----
-@import 'tools/tools.size';
-@import 'tools/tools.mediaquery';
+@import 'tools.size';
+@import 'tools.mediaquery';
 // ---- generic ----
-@import 'generic/generic.reset';
+@import 'generic.reset';
 // ---- elements ----
-@import 'elements/elements.base';
+@import 'elements.base';
 // ---- objects ----
-@import 'objects/objects.header';
-@import 'objects/objects.banner';
-@import 'objects/objects.figures';
-@import 'objects/objects.character';
-@import 'objects/objects.article';
-@import 'objects/objects.footer';
+@import 'objects.header';
+@import 'objects.banner';
+@import 'objects.figures';
+@import 'objects.character';
+@import 'objects.article';
+@import 'objects.footer';
 // ---- components ----
-@import 'components/components.grid';
-@import 'components/components.nav-item';
-@import 'components/components.circles';
-@import 'components/components.card';
-@import 'components/components.rect';
-@import 'components/components.button';
-@import 'components/components.intro';
-@import 'components/components.img-hover';
+@import 'components.grid';
+@import 'components.nav-item';
+@import 'components.circles';
+@import 'components.card';
+@import 'components.rect';
+@import 'components.button';
+@import 'components.intro';
+@import 'components.img-hover';
