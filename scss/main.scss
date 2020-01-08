@@ -7,20 +7,20 @@
 // ---- generic ----
 @import 'generic.reset';
 // ---- elements ----
-@import 'elements.base';
+@import 'elements/base';
 // ---- objects ----
-@import 'objects.header';
-@import 'objects.banner';
-@import 'objects.figures';
-@import 'objects.character';
-@import 'objects.article';
-@import 'objects.footer';
+@import 'objects/header';
+@import 'objects/banner';
+@import 'objects/figures';
+@import 'objects/character';
+@import 'objects/article';
+@import 'objects/footer';
 // ---- components ----
-@import 'components.grid';
-@import 'components.nav-item';
-@import 'components.circles';
-@import 'components.card';
-@import 'components.rect';
-@import 'components.button';
-@import 'components.intro';
-@import 'components.img-hover';
+@import 'components/grid';
+@import 'components/nav-item';
+@import 'components/circles';
+@import 'components/card';
+@import 'components/rect';
+@import 'components/button';
+@import 'components/intro';
+@import 'components/img-hover';
