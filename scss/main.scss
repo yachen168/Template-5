@@ -1,11 +1,10 @@
 // ---- settings ----
-@import 'settings.font';
-@import 'settings.color';
+@import 'settings/font';
+@import 'settings/color';
 // ---- tools ----
-@import 'tools.size';
-@import 'tools.mediaquery';
+@import 'tools/mediaquery';
 // ---- generic ----
-@import 'generic.reset';
+@import 'generic/reset';
 // ---- elements ----
 @import 'elements/base';
 // ---- objects ----
