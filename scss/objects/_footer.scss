@@ -4,7 +4,7 @@ footer {
     text-align: center;
 }
 
-.copyright {
+.copyright-wrapper {
     span {
         @include font(14px, Doris, normal, 2px);
     }
