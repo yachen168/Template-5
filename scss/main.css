@@ -116,7 +116,6 @@ nav {
 }
 
 .banner-wrapper {
-  position: relative;
   padding-top: 19vh;
   margin: 0 auto;
   max-width: 480px;
@@ -288,6 +287,7 @@ footer {
 }
 
 .banner-rect, .character-rect {
+  position: relative;
   background-color: #FF0048;
   color: #E5E4E4;
   font-size: 20px;
