@@ -2,6 +2,8 @@
     background: url(/image/banner.png) no-repeat;
     background-size: cover;
     text-align: center;
+    padding-top: 19vh;
+    padding-bottom: 80px;
     p {
         margin: 0 0 4vh;
         color: $white;
@@ -14,7 +16,6 @@
 }
 
 .banner-wrapper {
-    padding-top: 19vh;
     margin: 0 auto;
     max-width: 480px;
 }

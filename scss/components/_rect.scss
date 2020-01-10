@@ -2,6 +2,7 @@
     position: relative;
     background-color: $primary;
     color: $white;
+    text-align: center;
     @include font(20px, Doris, normal, 4px);
     &::before {
         content: "";
@@ -15,19 +16,24 @@
         margin: 0 auto;
         clip-path: polygon(0 0, 100% 0, 50% 100%);
         background-color: $primary;
-        z-index: 5;
     }
 }
 
-.banner-rect {
-    @extend %dialog-box;
-    width: 85%;
+.portfolio-rect {
+    position: absolute;
+    top: -78px;
+    left: 0;
+    bottom: auto;
+    right: 0;
     margin: 0 auto;
+    @extend %dialog-box;
+    width: 80%;
+    max-width: 350px;
     padding: 25px 0;
+    z-index: 1;
 }
 
 .character-rect {
-    position: relative;
     @extend %dialog-box;
     letter-spacing: 2px;
     width: 100%;
