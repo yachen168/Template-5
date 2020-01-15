@@ -121,10 +121,10 @@ nav {
   margin: 0 0 100px;
 }
 
-.character {
+.member {
   text-align: center;
 }
-.character-title {
+.member-title {
   color: #FF0048;
   margin: 60px 0;
   font-size: 26px;
@@ -133,7 +133,7 @@ nav {
   letter-spacing: 4px;
 }
 
-.character-wrapper {
+.member-wrapper {
   max-width: 910px;
   margin: 0 auto 20px;
 }
@@ -264,7 +264,7 @@ footer {
   padding: 15px 0 45px;
 }
 
-.character-rect, .portfolio-rect {
+.member-rect, .portfolio-rect {
   position: relative;
   background-color: #FF0048;
   color: #E5E4E4;
@@ -274,7 +274,7 @@ footer {
   font-weight: normal;
   letter-spacing: 4px;
 }
-.character-rect::before, .portfolio-rect::before {
+.member-rect::before, .portfolio-rect::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -301,7 +301,7 @@ footer {
   z-index: 1;
 }
 
-.character-rect {
+.member-rect {
   letter-spacing: 2px;
   width: 100%;
   padding: 20px 10px;
