@@ -185,7 +185,11 @@ footer {
   text-align: center;
 }
 
+.copyright-wrapper {
+  font-size: 0;
+}
 .copyright-wrapper span {
+  display: inline-block;
   font-size: 14px;
   font-family: Doris;
   font-weight: normal;
@@ -195,6 +199,14 @@ footer {
   font-size: 14px;
   color: #FF0048;
   margin: 0 5px;
+}
+.copyright-wrapper .created {
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .copyright-wrapper .created {
+    width: auto;
+  }
 }
 
 .row {

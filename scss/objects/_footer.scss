@@ -5,12 +5,20 @@ footer {
 }
 
 .copyright-wrapper {
+    font-size: 0;
     span {
+        display: inline-block;
         @include font(14px, Doris, normal, 2px);
     }
     a {
         font-size: 14px;
         color: $primary;
         margin: 0 5px;
+    }
+    .created {
+        width: 100%;
+        @include mediaquery-tablet {
+            width: auto;
+        }
     }
 }
