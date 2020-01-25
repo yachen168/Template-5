@@ -1,0 +1,22 @@
+{
+    "name": "template-5",
+    "version": "1.0.0",
+    "description": "goodideas",
+    "main": "index.js",
+    "scripts": {
+        "build-css": "node-sass -w scss/main.scss -o dist/ -r"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yachen168/Template-5.git"
+    },
+    "author": "yachen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yachen168/Template-5/issues"
+    },
+    "homepage": "https://github.com/yachen168/Template-5#readme",
+    "dependencies": {
+        "node-sass": "^4.13.1"
+    }
+}
