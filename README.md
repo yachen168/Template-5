@@ -1,5 +1,6 @@
 # Template-5
-node-sass。
+- node-sass
+- RWD
 
 [demo](https://yachen168.github.io/Template-5)
 
