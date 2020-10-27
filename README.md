@@ -30,7 +30,9 @@
 - Sass
   - 檔案拆分
   - 變數
+  - 自製斷點(576px、768px、992px)
   - mixin 與 extend 差異
+  
 <br>
 
 ## 成果 Demo
