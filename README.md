@@ -1,4 +1,11 @@
 # Template-5
+## 成果 Demo
+GitHub page: https://yachen168.github.io/Template-5
+
+![](./demo.png)
+
+<br>
+
 ## 目標
 1. 閱讀 W3C 與 MDN 規範，理解 CSS 排版原理。
 2. 使用 npm 管理套件
@@ -33,10 +40,6 @@
   - 自製斷點(576px、768px、992px)
   - mixin 與 extend 差異
   
-<br>
-
-## 成果 Demo
-[https://yachen168.github.io/Template-5](https://yachen168.github.io/Template-5)
 
 <br>
 
